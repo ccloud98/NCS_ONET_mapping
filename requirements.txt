@@ -1,6 +1,7 @@
 pandas
 openpyxl
 scikit-learn
+scipy
 numpy
 matplotlib
 seaborn
@@ -10,3 +11,6 @@ deep-translator
 tqdm
 jupyter
 ipykernel
+sentence-transformers
+torch
+transformers

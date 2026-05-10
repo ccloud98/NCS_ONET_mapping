@@ -1,2 +1,29 @@
-data/raw/*.xlsx
+# ── 원본 데이터 (대용량, 재배포 불가) ──────────────────────────────
 data/raw/NCS_DB.xlsx
+data/raw/db_30_2_excel/
+
+# ── 생성된 처리 데이터 (재생성 가능) ────────────────────────────────
+data/processed/*.csv
+data/processed/*.txt
+data/processed/embeddings/
+
+# ── 매핑 결과물 (재생성 가능) ────────────────────────────────────────
+outputs/
+
+# ── Python 캐시 ──────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ── 실행 로그 / 임시 파일 ───────────────────────────────────────────
+**/run_log.txt
+**/run_err.txt
+*.tmp
+*.bak
+
+# ── OS / 에디터 ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+*.swp
